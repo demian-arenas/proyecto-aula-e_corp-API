@@ -5,9 +5,10 @@
   "scripts": {
     "lint": "standard",
     "test": "npm run lint && NODE_ENV=test ava --require babel-register test/**-test.js",
-    "pictures": "micro -p 5000 pictures.js",
+    "home": "micro -p 5000 home.js",
     "users": "micro -p 5001 users.js",
-    "auth": "micro -p 5002 auth.js"
+    "admin": "micro -p 5002 admin.js",
+    "game": "micro -p 5002 game.js"
   },
   "standard": {
     "parser": "babel-eslint"
